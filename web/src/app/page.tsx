@@ -98,6 +98,20 @@ export default function Home() {
             {status === "loading" ? "Enviando..." : "Enviar"}
           </button>
         </form>
+
+        <div className="mt-6 pt-5 border-t border-gray-100">
+          <p className="text-xs font-medium text-gray-500 mb-2">Horario de impresión</p>
+          <div className="space-y-1 text-xs text-gray-400">
+            <div className="flex justify-between">
+              <span>Lunes – Viernes</span>
+              <span>9:00 – 22:00</span>
+            </div>
+            <div className="flex justify-between">
+              <span>Sábado – Domingo</span>
+              <span>11:00 – 22:00</span>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   );
